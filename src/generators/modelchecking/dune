@@ -1,0 +1,9 @@
+(executable 
+  (public_name elevators-bin)
+  (libraries pgsolver)
+  (name elevators_aux))
+
+(executable 
+  (public_name roadworks-bin)
+  (libraries pgsolver)
+  (name roadworks_aux))

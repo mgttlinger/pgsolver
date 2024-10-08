@@ -1,0 +1,3 @@
+(library 
+  (name pgsolver)
+  (libraries num str TCSLib extlib ocaml-sat-solvers minisat unix threads))

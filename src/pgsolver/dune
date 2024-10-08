@@ -1,0 +1,4 @@
+(executable 
+  (public_name pgsolver-bin)
+  (libraries pgsolver)
+  (name pgsolver))

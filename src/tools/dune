@@ -1,0 +1,69 @@
+(executable 
+  (public_name auso-bin)
+  (libraries pgsolver)
+  (name auso))
+
+(executable 
+  (public_name benchmark-bin)
+  (libraries pgsolver)
+  (name benchmark))
+
+(executable 
+  (public_name benchstratimpr-bin)
+  (libraries pgsolver)
+  (name benchstratimpr))
+
+(executable 
+  (public_name combine-bin)
+  (libraries pgsolver)
+  (name combine))
+
+(executable 
+  (public_name complexdecomp-bin)
+  (libraries pgsolver)
+  (name complexdecomp))
+
+(executable 
+  (public_name compressor-bin)
+  (libraries pgsolver)
+  (name compressor))
+
+(executable 
+  (public_name fullimprarena-bin)
+  (libraries pgsolver)
+  (name fullimprarena))
+
+(executable 
+  (public_name imprarena-bin)
+  (libraries pgsolver)
+  (name imprarena))
+
+(executable 
+  (public_name infotool-bin)
+  (libraries pgsolver)
+  (name infotool))
+
+(executable 
+  (public_name itersat-bin)
+  (libraries pgsolver)
+  (name itersat))
+
+(executable 
+  (public_name obfuscator-bin)
+  (libraries pgsolver)
+  (name obfuscator))
+
+(executable 
+  (public_name policyitervis-bin)
+  (libraries pgsolver)
+  (name policyitervis))
+
+(executable 
+  (public_name transformer-bin)
+  (libraries pgsolver)
+  (name transformer))
+
+(executable 
+  (public_name winningstrats-bin)
+  (libraries pgsolver)
+  (name winningstrats))

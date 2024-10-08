@@ -1,0 +1,54 @@
+(executable 
+  (name cliquegame_aux)
+  (public_name cliquegame-bin)
+  (libraries pgsolver))
+
+(executable 
+  (name clusteredrandomgame_aux)
+  (public_name clusteredrandomgame-bin)
+  (libraries pgsolver))
+
+(executable 
+  (public_name jurdzinskigame-bin)
+  (libraries pgsolver)
+  (name jurdzinskigame_aux))
+
+(executable 
+  (public_name laddergame-bin)
+  (libraries pgsolver)
+  (name laddergame_aux))
+
+(executable 
+  (public_name langincl-bin)
+  (libraries pgsolver)
+  (name langincl_aux))
+
+(executable 
+  (public_name modelcheckerladder-bin)
+  (libraries pgsolver)
+  (name modelcheckerladder_aux))
+
+(executable 
+  (public_name randomgame-bin)
+  (libraries pgsolver)
+  (name randomgame_aux))
+
+(executable 
+  (public_name recursiveladder-bin)
+  (libraries pgsolver)
+  (name recursiveladder_aux))
+
+(executable 
+  (public_name recursivedullgame-bin)
+  (libraries pgsolver)
+  (name recursivedullgame_aux))
+
+(executable 
+  (public_name steadygame-bin)
+  (libraries pgsolver)
+  (name steadygame_aux))
+
+(executable 
+  (public_name towersofhanoi-bin)
+  (libraries pgsolver)
+  (name towersofhanoi_aux))

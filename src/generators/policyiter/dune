@@ -1,0 +1,4 @@
+(executable 
+  (public_name stratimprgen-bin)
+  (libraries pgsolver)
+  (name stratimprgen))
